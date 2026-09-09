@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Logs and data
+social_framework_log.txt
+captures/
+visitor_data/
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# cIoudflare logo (provide your own)
+cIoudflare_logo.png
+
+# Editor
+.vscode/
+.idea/
