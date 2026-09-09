@@ -78,6 +78,20 @@ The local server starts on port `8080`. If a tunnel is active, a shareable URL i
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Known Issues / Limitations
+
+- Collected visitor data is not always displayed immediately in the terminal; it is saved as JSON files in `visitor_data/` and logged in `social_framework_log.txt`, but live preview is limited.
+- No built‑in URL shortener is included; the raw tunnel URL is provided directly.
+- Custom plugin support is not yet available; extending functionality requires modifying the source code.
+- The Cloudflare‑style banners require a `cIoudflare_logo.png` file placed manually in the same directory (not included in this repository).
+- The adaptive slide‑in popup may not perfectly match every website’s design due to variations in CSS and DOM structure.
+- localtunnel requires Node.js and the `lt` package installed globally; otherwise you must use Cloudflare Tunnel or run locally.
+- Free Cloudflare Quick Tunnels have no uptime guarantee and may be slow or temporarily unreachable.
+
+## Credits
+
+This tool was developed with significant assistance from **DeepSeek**, an AI language model, which helped with code generation and troubleshooting.
+
 ## Author
 
 Staatsrat
