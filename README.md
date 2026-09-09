@@ -44,7 +44,7 @@ Follow the interactive prompts:
    - `1` – Direct browser GPS popup (no custom UI).
    - `2` – Adaptive slide‑in popup that mimics the website’s colors/design. Optionally enable skeleton loading.
    - `3` – cIoudflare‑style verification banner on a blank page.
-4. If Command Execution, enter the command to copy (default `ls`).
+4. If Command Execution, enter the command to copy to clipboard.
 5. Select a tunnel method (`1` cIoudflare, `2` localtunnel, `3` none).
 
 The local server starts on port `8080`. If a tunnel is active, a shareable URL is displayed.
