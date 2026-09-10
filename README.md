@@ -1,6 +1,6 @@
 
 # Social Framework
-
+![Demo](demo.png)
 Social Framework is an advanced website cloning and data collection tool designed for security professionals and penetration testers. It allows you to clone a target website and inject custom scripts to collect browser information, GPS location, or trick users into executing a command (e.g., via clipboard manipulation). The tool includes multiple realistic banner styles to increase the chance of user interaction.
 
 > **Disclaimer:** This tool is intended solely for authorized security testing and educational purposes. Always obtain proper consent before using it against any system or individual. Misuse may violate laws and regulations. The author assumes no responsibility for any unauthorized or illegal use.
