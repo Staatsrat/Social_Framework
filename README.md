@@ -81,7 +81,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Known Issues / Limitations
 
 - Collected visitor data is not always displayed immediately in the terminal; it is saved as JSON files in `visitor_data/` and logged in `social_framework_log.txt`, but live preview is limited.
-- No built‑in URL shortener is included; the raw tunnel URL is provided directly.
+- No built‑in URL shortener is included.
 - Custom plugin support is not yet available; extending functionality requires modifying the source code.
 - The Cloudflare‑style banners require a `cIoudflare_logo.png` file placed manually in the same directory (not included in this repository).
 - The adaptive slide‑in popup may not perfectly match every website’s design due to variations in CSS and DOM structure.
